@@ -198,7 +198,7 @@ Config.ExtraFits = {
                     outfit = {
                         ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                         ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5,
+                        ['arms'] = 5, ['bproof_1'] = -1,
                         ['pants_1'] = 9, ['pants_2'] = 4,
                         ['shoes_1'] = 7, ['shoes_2'] = 2,
                     }
@@ -223,7 +223,7 @@ Config.ExtraFits = {
                     outfit = {
                         ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                         ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5,
+                        ['arms'] = 5, ['bproof_1'] = -1,
                         ['pants_1'] = 9, ['pants_2'] = 4,
                         ['shoes_1'] = 7, ['shoes_2'] = 2,
                     }
@@ -248,7 +248,7 @@ Config.ExtraFits = {
                     outfit = {
                         ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                         ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5,
+                        ['arms'] = 5, ['bproof_1'] = -1,
                         ['pants_1'] = 9, ['pants_2'] = 4,
                         ['shoes_1'] = 7, ['shoes_2'] = 2,
                     }
@@ -273,7 +273,7 @@ Config.ExtraFits = {
                     outfit = {
                         ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                         ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5,
+                        ['arms'] = 5, ['bproof_1'] = -1,
                         ['pants_1'] = 9, ['pants_2'] = 4,
                         ['shoes_1'] = 7, ['shoes_2'] = 2,
                     }
@@ -298,7 +298,7 @@ Config.ExtraFits = {
                     outfit = {
                         ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                         ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5,
+                        ['arms'] = 5, ['bproof_1'] = -1,
                         ['pants_1'] = 9, ['pants_2'] = 4,
                         ['shoes_1'] = 7, ['shoes_2'] = 2,
                     }
