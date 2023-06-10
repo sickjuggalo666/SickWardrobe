@@ -82,7 +82,7 @@ local function ChangeClothes(info)
                     },
                 }) 
                 then 
-                    TriggerEvent('skinchanger:loadClothes', skin, info.MaleOutfit) 
+                    TriggerEvent('skinchanger:loadClothes', skin, info.outfit) 
                 else 
                     print('Do stuff when cancelled') 
                 end
@@ -103,7 +103,7 @@ local function ChangeClothes(info)
                     },
                 }) 
                 then 
-                    TriggerEvent('skinchanger:loadClothes', skin, info.FemaleOutfit) 
+                    TriggerEvent('skinchanger:loadClothes', skin, info.outfit) 
                 else 
                     print('Do stuff when cancelled') 
                 end
@@ -116,62 +116,64 @@ local function OpenExtras(fit)
     local id = tonumber(fit.spot)
     local cfg = Config.ExtraFits[PlayerData.job.name][id]
     local option = {}
-    local Male = exports["fivem-appearance"]:getPedModel(PlayerPedId())
-    if Male then
-        for k,v in pairs(cfg.male) do
-            if fit.job == id then
-                option[#option+1] = {
-                    title = v.title,
-                    icon = v.icon,
-                    description = v.description, 
-                    args = {
-                        isExtra = true,
-                        outfit = v.outfit
-                    },
-                    onSelect = function(args)
-                        local alert = lib.alertDialog({
-                            header = 'Change Oufit?',
-                            content = 'Are you sure you want to change into: \n'..v.title.. ' outfit?',
-                            centered = true,
-                            cancel = true
-                        })
-                        if alert == 'confirm' then
-                            ChangeClothes(args)
-                        else
-                            lib.showContext('wardrobe_2')
+    local Male = GetHashKey("mp_m_freemode_01")
+    TriggerEvent('skinchanger:getSkin', function(skin)
+        if GetHashKey(GetEntityModel(PlayerPedId())) == Male then
+            for k,v in pairs(cfg.male) do
+                if fit.job == id then
+                    option[#option+1] = {
+                        title = v.title,
+                        icon = v.icon,
+                        description = v.description, 
+                        args = {
+                            isExtra = true,
+                            outfit = v.outfit
+                        },
+                        onSelect = function(args)
+                            local alert = lib.alertDialog({
+                                header = 'Change Oufit?',
+                                content = 'Are you sure you want to change into: \n'..v.title.. ' outfit?',
+                                centered = true,
+                                cancel = true
+                            })
+                            if alert == 'confirm' then
+                                ChangeClothes(args)
+                            else
+                                lib.showContext('wardrobe_2')
+                            end
                         end
-                    end
-                }
+                    }
+                end
+            end
+        else
+            for k,v in pairs(cfg.female) do
+                if fit.job == id then
+                    option[#option+1] = {
+                        title = v.title,
+                        icon = v.icon,
+                        description = v.description, 
+                        args = {
+                            isExtra = true,
+                            outfit = v.outfit
+                        },
+                        onSelect = function(args)
+                            local alert = lib.alertDialog({
+                                header = 'Change Oufit?',
+                                content = 'Are you sure you want to change into: \n'..v.title.. ' outfit?',
+                                centered = true,
+                                cancel = true
+                            })
+                            if alert == 'confirm' then
+                                ChangeClothes(args)
+                            else
+                                lib.showContext('wardrobe_2')
+                            end
+                        end
+                    }
+                end
             end
         end
-    else
-        for k,v in pairs(cfg.female) do
-            if fit.job == id then
-                option[#option+1] = {
-                    title = v.title,
-                    icon = v.icon,
-                    description = v.description, 
-                    args = {
-                        isExtra = true,
-                        outfit = v.outfit
-                    },
-                    onSelect = function(args)
-                        local alert = lib.alertDialog({
-                            header = 'Change Oufit?',
-                            content = 'Are you sure you want to change into: \n'..v.title.. ' outfit?',
-                            centered = true,
-                            cancel = true
-                        })
-                        if alert == 'confirm' then
-                            ChangeClothes(args)
-                        else
-                            lib.showContext('wardrobe_2')
-                        end
-                    end
-                }
-            end
-        end
-    end
+    end)
     lib.registerContext({
         id = 'wardrobe_2',
         menu = 'wardrobe_1',
