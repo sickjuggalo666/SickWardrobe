@@ -34,11 +34,11 @@ local function ChangeClothes(info)
                         dict = 'missmic4',
                         clip = 'michael_tux_fidget'
                     },
-                }) 
-                then 
-                    TriggerEvent('skinchanger:loadClothes', skin, info.MaleOutfit) 
-                else 
-                    print('Do stuff when cancelled') 
+                })
+                then
+                    TriggerEvent('skinchanger:loadClothes', skin, info.MaleOutfit)
+                else
+                    print('Do stuff when cancelled')
                 end
             else
                 if lib.progressBar({
@@ -55,11 +55,11 @@ local function ChangeClothes(info)
                         dict = 'missmic4',
                         clip = 'michael_tux_fidget'
                     },
-                }) 
-                then 
-                    TriggerEvent('skinchanger:loadClothes', skin, info.FemaleOutfit) 
-                else 
-                    print('Do stuff when cancelled') 
+                })
+                then
+                    TriggerEvent('skinchanger:loadClothes', skin, info.FemaleOutfit)
+                else
+                    print('Do stuff when cancelled')
                 end
             end
         end)
@@ -80,11 +80,11 @@ local function ChangeClothes(info)
                         dict = 'missmic4',
                         clip = 'michael_tux_fidget'
                     },
-                }) 
-                then 
-                    TriggerEvent('skinchanger:loadClothes', skin, info.outfit) 
-                else 
-                    print('Do stuff when cancelled') 
+                })
+                then
+                    TriggerEvent('skinchanger:loadClothes', skin, info.outfit)
+                else
+                    print('Do stuff when cancelled')
                 end
             else
                 if lib.progressBar({
@@ -101,11 +101,11 @@ local function ChangeClothes(info)
                         dict = 'missmic4',
                         clip = 'michael_tux_fidget'
                     },
-                }) 
-                then 
-                    TriggerEvent('skinchanger:loadClothes', skin, info.outfit) 
-                else 
-                    print('Do stuff when cancelled') 
+                })
+                then
+                    TriggerEvent('skinchanger:loadClothes', skin, info.outfit)
+                else
+                    print('Do stuff when cancelled')
                 end
             end
         end)
@@ -124,7 +124,7 @@ local function OpenExtras(fit)
                     option[#option+1] = {
                         title = v.title,
                         icon = v.icon,
-                        description = v.description, 
+                        description = v.description,
                         args = {
                             isExtra = true,
                             outfit = v.outfit
@@ -151,7 +151,7 @@ local function OpenExtras(fit)
                     option[#option+1] = {
                         title = v.title,
                         icon = v.icon,
-                        description = v.description, 
+                        description = v.description,
                         args = {
                             isExtra = true,
                             outfit = v.outfit
@@ -194,7 +194,7 @@ local function OpenWardrobe(loc)
             option[#option+1] = {
                 title = v.title,
                 icon = v.icon,
-                description = v.description, 
+                description = v.description,
                 args = {
 
                     MaleOutfit = v.MaleOutfit,
@@ -222,7 +222,7 @@ local function OpenWardrobe(loc)
         table.insert(option,{
             title = 'Extra Outfits',
             icon = 'circle',
-            description = 'We got the others ones here!', 
+            description = 'We got the others ones here!',
             args = {
                 job = PlayerData.job.grade,
                 spot = hereItIs
@@ -286,8 +286,8 @@ Citizen.CreateThread(function()
                                     dict = 'missmic4',
                                     clip = 'michael_tux_fidget'
                                 },
-                            }) 
-                            then 
+                            })
+                            then
                                 ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin)
                                     DoScreenFadeOut(500)
                                     Wait(2000)
@@ -295,8 +295,8 @@ Citizen.CreateThread(function()
                                     Wait(2000)
                                     DoScreenFadeIn(500)
                                 end)
-                            else 
-                                print('Do stuff when cancelled') 
+                            else
+                                print('Do stuff when cancelled')
                             end
                         end
                     }
@@ -314,7 +314,7 @@ Citizen.CreateThread(function()
             function point:onExit()
                 lib.hideTextUI()
             end
-            
+
             function point:nearby()
                 if PlayerData.job.name == v.job then
                     DrawMarker(2, self.coords.x, self.coords.y, self.coords.z, 0.0, 0.0, 0.0, 0.0, 180.0, 0.0, 1.0, 1.0, 1.0, 200, 20, 20, 50, false, true, 2, false, nil, nil, false)
@@ -336,7 +336,7 @@ Citizen.CreateThread(function()
                             OpenWardrobe(k)
                         end
                     else
-                        lib.hideTextUI() 
+                        lib.hideTextUI()
                     end
                 end
             end
@@ -347,10 +347,10 @@ Citizen.CreateThread(function()
 				RequestModel(hash)
 				Wait(10)
 			end
-			while not HasModelLoaded(hash) do 
+			while not HasModelLoaded(hash) do
 				Wait(10)
 			end
-	
+
 			pedspawned = true
 			wardrobePed = CreatePed(5, hash, v.PedCoords, v.h, false, false)
 			SetBlockingOfNonTemporaryEvents(wardrobePed, true)

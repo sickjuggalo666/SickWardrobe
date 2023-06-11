@@ -20,18 +20,18 @@ Config.Wardrobes = {
                 icon = 'circle',
                 extraOutfits = false,
                 MaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 },
                 FemaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             },
             ['1'] = { -- rank for this uniform
@@ -40,18 +40,18 @@ Config.Wardrobes = {
                 icon = 'circle',
                 extraOutfits = false,
                 MaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 },
                 FemaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             },
             ['2'] = { -- rank for this uniform
@@ -60,18 +60,18 @@ Config.Wardrobes = {
                 icon = 'circle',
                 extraOutfits = false,
                 MaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 },
                 FemaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             },
             ['3'] = {
@@ -88,11 +88,11 @@ Config.Wardrobes = {
                     ['mask_1'] = -1, ['helmet_1'] = -1
                 },
                 FemaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             },
             ['4'] = {
@@ -101,18 +101,18 @@ Config.Wardrobes = {
                 icon = 'circle',
                 extraOutfits = false,
                 MaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 },
                 FemaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             },
         },
@@ -136,18 +136,18 @@ Config.Wardrobes = {
                 icon = 'circle',
                 extraOutfits = true,
                 MaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 },
                 FemaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             },
             ['3'] = {
@@ -157,18 +157,18 @@ Config.Wardrobes = {
                 icon = 'circle',
                 extraOutfits = false,
                 MaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 },
                 FemaleOutfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             },
         },
@@ -206,11 +206,14 @@ Config.ExtraFits = {
             },
             female = {
                 [1] = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    title = 'Undercover Agent',
+                    icon = 'hand',
+                    description = 'Ready to infiltrate? Lets gear up!',
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             }
         },
@@ -231,11 +234,14 @@ Config.ExtraFits = {
             },
             female = {
                 [1] = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    title = 'Undercover Agent',
+                    icon = 'hand',
+                    description = 'Ready to infiltrate? Lets gear up!',
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             }
     },
@@ -256,11 +262,14 @@ Config.ExtraFits = {
         },
         female = {
             [1] = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                    title = 'Undercover Agent',
+                    icon = 'hand',
+                    description = 'Ready to infiltrate? Lets gear up!',
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             }
     },
@@ -280,18 +289,21 @@ Config.ExtraFits = {
                 },
             },
             female = {
-                ['undercover'] = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                [1] = {
+                    title = 'Undercover Agent',
+                    icon = 'hand',
+                    description = 'Ready to infiltrate? Lets gear up!',
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             }
     },
     [4] = {
             male = {
-                ['undercover'] = {
+                [1] = {
                     title = 'Undercover Agent',
                     icon = 'hand',
                     description = 'Ready to infiltrate? Lets gear up!',
@@ -305,12 +317,15 @@ Config.ExtraFits = {
                 },
             },
             female = {
-                ['undercover'] = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
+                [1] = {
+                    title = 'Undercover Agent',
+                    icon = 'hand',
+                    description = 'Ready to infiltrate? Lets gear up!',
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,s
                 }
             }
         },
