@@ -16,10 +16,9 @@ Citizen.CreateThread(function()
 end)
 
 local function ChangeClothes(info)
-    local Male = GetHashKey("mp_m_freemode_01")
     if not info.isExtra then
         TriggerEvent('skinchanger:getSkin', function(skin)
-            if GetHashKey(GetEntityModel(PlayerPedId())) == Male then
+            if skin.sex == 0 then
                 if lib.progressBar({
                     duration = 5000,
                     label = 'Changing Clothes',
@@ -65,7 +64,7 @@ local function ChangeClothes(info)
         end)
     else
         TriggerEvent('skinchanger:getSkin', function(skin)
-            if GetHashKey(GetEntityModel(PlayerPedId())) == Male then
+            if skin.sex == 0 then
                 if lib.progressBar({
                     duration = 5000,
                     label = 'Changing Clothes',
@@ -116,9 +115,8 @@ local function OpenExtras(fit)
     local id = tonumber(fit.spot)
     local cfg = Config.ExtraFits[PlayerData.job.name][id]
     local option = {}
-    local Male = GetHashKey("mp_m_freemode_01")
     TriggerEvent('skinchanger:getSkin', function(skin)
-        if GetHashKey(GetEntityModel(PlayerPedId())) == Male then
+        if skin.sex == 0 then
             for k,v in pairs(cfg.male) do
                 if fit.job == id then
                     option[#option+1] = {
@@ -199,7 +197,7 @@ local function OpenWardrobe(loc)
 
                     MaleOutfit = v.MaleOutfit,
                     FemaleOutfit = v.FemaleOutfit,
-                    extra = v.extraOutfits,
+                    extra = extraOutfits,
                     spot = k
                 },
                 onSelect= function(args)
@@ -212,7 +210,7 @@ local function OpenWardrobe(loc)
                     if alert == 'confirm' then
                         ChangeClothes(args)
                     else
-                        lib.showContext('wardrobe_2')
+                        lib.showContext('wardrobe_1')
                     end
                 end
             }
