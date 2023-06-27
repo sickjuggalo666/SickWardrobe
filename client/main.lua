@@ -15,6 +15,7 @@ Citizen.CreateThread(function()
 	PlayerData = ESX.GetPlayerData()
 end)
 
+
 local function ChangeClothes(info)
     if not info.isExtra then
         TriggerEvent('skinchanger:getSkin', function(skin)

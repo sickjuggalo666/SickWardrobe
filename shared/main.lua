@@ -18,8 +18,9 @@ Config.Wardrobes = {
                 title = 'Cadet',
                 description = 'Cadet Uniform',
                 icon = 'circle',
+                extraOutfits = false,
                 MaleOutfit = {
-                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['tshirt_1'] = 26, ['tshirt_2'] = 0,
                     ['torso_1'] = 5, ['torso_2'] = 0,
                     ['arms'] = 5, ['bproof_1'] = -1,
                     ['pants_1'] = 9, ['pants_2'] = 4,
@@ -37,6 +38,7 @@ Config.Wardrobes = {
                 title = 'Traffic Officer',
                 description = 'Traffic Officer Uniform',
                 icon = 'circle',
+                extraOutfits = false,
                 MaleOutfit = {
                     ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                     ['torso_1'] = 5, ['torso_2'] = 0,
@@ -56,6 +58,7 @@ Config.Wardrobes = {
                 title = 'Police Officer',
                 description = 'Police Officer Uniform',
                 icon = 'circle',
+                extraOutfits = false,
                 MaleOutfit = {
                     ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                     ['torso_1'] = 5, ['torso_2'] = 0,
@@ -75,6 +78,7 @@ Config.Wardrobes = {
                 title = 'Sr. Officer',
                 description = 'Sr. Officer Uniform 1',
                 icon = 'circle',
+                extraOutfits = true,
                 MaleOutfit = {
                     ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                     ['torso_1'] = 5, ['torso_2'] = 0,
@@ -95,6 +99,7 @@ Config.Wardrobes = {
                 title = 'Cadet',
                 description = 'Cadet Uniform 2',
                 icon = 'circle',
+                extraOutfits = false,
                 MaleOutfit = {
                     ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                     ['torso_1'] = 5, ['torso_2'] = 0,
@@ -129,6 +134,7 @@ Config.Wardrobes = {
                 title = 'Sr. Officer',
                 description = 'Sr. Officer Uniform 1',
                 icon = 'circle',
+                extraOutfits = true,
                 MaleOutfit = {
                     ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                     ['torso_1'] = 5, ['torso_2'] = 0,
@@ -149,6 +155,7 @@ Config.Wardrobes = {
                 title = 'Cadet',
                 description = 'Cadet Uniform 2',
                 icon = 'circle',
+                extraOutfits = false,
                 MaleOutfit = {
                     ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                     ['torso_1'] = 5, ['torso_2'] = 0,
@@ -210,7 +217,7 @@ Config.ExtraFits = {
                 }
             }
         },
-        [1] = {-- RANK
+    [1] = {
             male = {
                 [1] = {
                     title = 'Undercover Agent',
@@ -237,105 +244,11 @@ Config.ExtraFits = {
                     ['shoes_1'] = 7, ['shoes_2'] = 2,
                 }
             }
-        },
-        [2] = { -- RANK
-            male = {
-                [1] = {
-                    title = 'Undercover Agent',
-                    icon = 'hand',
-                    description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
-            },
-            female = {
-                [1] = {
-                    title = 'Undercover Agent',
-                    icon = 'hand',
-                    description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
-            }
-        },
-        [3] = {-- RANK
-            male = {
-                [1] = {
-                    title = 'Undercover Agent',
-                    icon = 'hand',
-                    description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
-            },
-            female = {
-                [1] = {
-                    title = 'Undercover Agent',
-                    icon = 'hand',
-                    description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
-            }
-        },
-        [4] = {-- RANK
-            male = {
-                [1] = {
-                    title = 'Undercover Agent',
-                    icon = 'hand',
-                    description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
-            },
-            female = {
-                [1] = {
-                    title = 'Undercover Agent',
-                    icon = 'hand',
-                    description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
-            }
-        },
     },
-
-    --- start new job HERE!
-    ['ambulance'] = {
-        [0] = { -- RANK based
+    [2] = { 
             male = {
                 [1] = {
-                    title = 'Medic',
+                    title = 'Undercover Agent',
                     icon = 'hand',
                     description = 'Ready to infiltrate? Lets gear up!',
                     outfit = {
@@ -346,56 +259,24 @@ Config.ExtraFits = {
                         ['shoes_1'] = 7, ['shoes_2'] = 2,
                     }
                 },
-            },
-            female = {
-                [1] = {
-                    title = 'Medic',
-                    icon = 'hand',
-                    description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
-            }
         },
-        [1] = {-- RANK
-            male = {
-                [1] = {
-                    title = 'Medic',
-                    icon = 'hand',
-                    description = 'Ready to save lives?',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
-            },
-            female = {
-                [1] = {
-                    title = 'Medic',
+        female = {
+            [1] = {
+                    title = 'Undercover Agent',
                     icon = 'hand',
                     description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
+                }
             }
-        },
-        [2] = { -- RANK
+    },
+    [3] = {
             male = {
                 [1] = {
-                    title = 'Medic',
+                    title = 'Undercover Agent',
                     icon = 'hand',
                     description = 'Ready to infiltrate? Lets gear up!',
                     outfit = {
@@ -409,25 +290,23 @@ Config.ExtraFits = {
             },
             female = {
                 [1] = {
-                    title = 'Medic',
+                    title = 'Undercover Agent',
                     icon = 'hand',
                     description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,
+                }
             }
-        },
-        [3] = {-- RANK
+    },
+    [4] = {
             male = {
                 [1] = {
-                    title = 'Medic',
+                    title = 'Undercover Agent',
                     icon = 'hand',
-                    description = 'Ready to save lives?',
+                    description = 'Ready to infiltrate? Lets gear up!',
                     outfit = {
                         ['tshirt_1'] = 15, ['tshirt_2'] = 0,
                         ['torso_1'] = 5, ['torso_2'] = 0,
@@ -439,47 +318,15 @@ Config.ExtraFits = {
             },
             female = {
                 [1] = {
-                    title = 'Medic',
+                    title = 'Undercover Agent',
                     icon = 'hand',
                     description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
-            }
-        },
-        [4] = {-- RANK
-            male = {
-                [1] = {
-                    title = 'Medic',
-                    icon = 'hand',
-                    description = 'Ready to save lives?',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
-            },
-            female = {
-                [1] = {
-                    title = 'Medic',
-                    icon = 'hand',
-                    description = 'Ready to infiltrate? Lets gear up!',
-                    outfit = {
-                        ['tshirt_1'] = 15, ['tshirt_2'] = 0,
-                        ['torso_1'] = 5, ['torso_2'] = 0,
-                        ['arms'] = 5, ['bproof_1'] = -1,
-                        ['pants_1'] = 9, ['pants_2'] = 4,
-                        ['shoes_1'] = 7, ['shoes_2'] = 2,
-                    }
-                },
+                    ['tshirt_1'] = 15, ['tshirt_2'] = 0,
+                    ['torso_1'] = 5, ['torso_2'] = 0,
+                    ['arms'] = 5, ['bproof_1'] = -1,
+                    ['pants_1'] = 9, ['pants_2'] = 4,
+                    ['shoes_1'] = 7, ['shoes_2'] = 2,s
+                }
             }
         },
     },
