@@ -10,7 +10,7 @@ Config.Wardrobes = {
         h = 341.2538, 
         size = vec3(1, 1, 2),
         rotation = 75,
-        isExtra = true, -- if this needs an extra outfits menu
+        isExtra = true, -- needed if you want to add more outfits
         debug = false, -- can debug if you need to
         ped = 's_m_m_armoured_01', -- ped
         wardrobes = {
@@ -18,7 +18,7 @@ Config.Wardrobes = {
                 title = 'Cadet',
                 description = 'Cadet Uniform',
                 icon = 'circle',
-                extraOutfits = false,
+                extraOutfits = false, -- working on this for now really means nothing
                 MaleOutfit = {
                     ['tshirt_1'] = 26, ['tshirt_2'] = 0,
                     ['torso_1'] = 5, ['torso_2'] = 0,

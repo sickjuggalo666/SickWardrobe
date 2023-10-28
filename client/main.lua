@@ -144,10 +144,18 @@ local function OpenExtras(fit)
                     }
                 end
             end
+            lib.registerContext({
+                id = 'wardrobe_2',
+                menu = 'wardrobe_1',
+                title = 'Job Wardrobe',
+                options = option
+            })
+            lib.showContext('wardrobe_2')
         else
+            local optionF = {}
             for k,v in pairs(cfg.female) do
                 if fit.job == id then
-                    option[#option+1] = {
+                    optionF[#optionF+1] = {
                         title = v.title,
                         icon = v.icon,
                         description = v.description,
@@ -165,21 +173,21 @@ local function OpenExtras(fit)
                             if alert == 'confirm' then
                                 ChangeClothes(args)
                             else
-                                lib.showContext('wardrobe_2')
+                                lib.showContext('wardrobe_3')
                             end
                         end
                     }
                 end
+                lib.registerContext({
+                    id = 'wardrobe_3',
+                    menu = 'wardrobe_1',
+                    title = 'Female Job Wardrobe',
+                    options = optionF
+                })
+                lib.showContext('wardrobe_3')
             end
         end
     end)
-    lib.registerContext({
-        id = 'wardrobe_2',
-        menu = 'wardrobe_1',
-        title = 'Job Wardrobe',
-        options = option
-    })
-    lib.showContext('wardrobe_2')
 end
 
 local function OpenWardrobe(loc)
@@ -195,11 +203,10 @@ local function OpenWardrobe(loc)
                 icon = v.icon,
                 description = v.description,
                 args = {
-
                     MaleOutfit = v.MaleOutfit,
                     FemaleOutfit = v.FemaleOutfit,
                     extra = extraOutfits,
-                    spot = k
+                    spot = hereItIs                        
                 },
                 onSelect= function(args)
                     local alert = lib.alertDialog({

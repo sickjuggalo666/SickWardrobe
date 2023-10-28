@@ -3,4 +3,4 @@
 
 [Discord] = ( https://discord.gg/YCsBGB58eg )
 
-[Documentation] = ( https://juggin666.com/ )
+[Documentation] = ( https://docs.sickscripts.shop/ )
